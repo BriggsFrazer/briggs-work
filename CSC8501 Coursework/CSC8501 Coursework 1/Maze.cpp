@@ -9,7 +9,7 @@ int mazeDisplay(vector<vector<char>> maze){
 	{
 		for (int j = 0; j < maze[i].size(); j++)
 		{
-			cout << &maze[i][j] << " ";
+			cout << maze[i][j];
 		}
 		cout << endl;
 	}
@@ -20,6 +20,7 @@ vector<vector<char>> mazeGen() {
 	int width;
 	int exits;
 
+	//ADD VALIDATION
 	cout << "Please enter an integer height" << endl;
 	cin >> height;
 	cout << "Please enter an integer width" << endl;
