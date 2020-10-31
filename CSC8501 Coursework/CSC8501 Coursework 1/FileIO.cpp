@@ -2,7 +2,8 @@
 #include "FileIO.h";
 using namespace std; 
 
-vector<vector<char>> loadFile(char* fileName) {
+vector<vector<char>> loadFile() {
+	char* fileName;
 	vector<vector<char>> vect;
 	return vect;
 	
