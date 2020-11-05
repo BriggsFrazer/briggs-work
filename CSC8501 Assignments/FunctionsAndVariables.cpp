@@ -4,8 +4,7 @@ using namespace std;
 
 int main() {
 	ofstream myfile("example.txt");
-	if (myfile.is_open())
-	{
+	if (myfile.is_open()) {
 		myfile << "This is a line.\n";
 		myfile << "This is another line.\n";
 		myfile.close();

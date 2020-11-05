@@ -1,7 +1,8 @@
 #include <vector>
+#include "Maze.h"
 using namespace std;
 
 
-vector<vector<char>> loadFile();
+Maze loadFile(Maze &loadedMaze);
 
-int saveFile(vector<vector<char>> maze);
+int saveFile(Maze &maze);

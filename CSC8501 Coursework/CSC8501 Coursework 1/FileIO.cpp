@@ -4,12 +4,12 @@
 #include <fstream>
 #include "FileIO.h";
 
+
 using namespace std; 
 
-vector<vector<char>> loadFile() {
+Maze loadFile(Maze &loadedMaze) {
 	string fileName;
 	ifstream file;
-	vector<vector<char>> loadedVect;
 
 
 	cout << "What is the name of your file?";
@@ -23,33 +23,34 @@ vector<vector<char>> loadFile() {
 		for (int i = 0; i < line.size();i++) {
 			temp.push_back(line.at(i));
 		}
-		loadedVect.push_back(temp);
+		loadedMaze.layout.push_back(temp);
 		temp.clear();
 	}
 
 	file.close();
-	return loadedVect;
+	return loadedMaze;
 	
 }
 
-int saveFile(vector<vector<char>>  maze) {
+int saveFile(Maze &maze) {
 	string fileName;
 	
 	cout << "Enter the file name: ";
 	cin >> fileName;
 
-
-
 	ofstream file;
 	file.open(fileName);
-	file << "wow";
 
-	for (int i = 0; i < maze.size(); i++) {
+	if (!file) {
+		perror("The following error occured ");
+	}
+
+	for (int i = 0; i < maze.layout.size(); i++) {
 		string temp = "";
-		for (int j = 0; j < maze[i].size(); j++) {
-			temp += maze[i][j];
+		for (int j = 0; j < maze.layout[i].size(); j++) {
+			temp += maze.layout[i][j];
 		}
-		file << temp << '/n';
+		file << temp << endl;
 	}
 
 	

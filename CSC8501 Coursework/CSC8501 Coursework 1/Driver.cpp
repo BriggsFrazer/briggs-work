@@ -5,20 +5,20 @@ using namespace std;
 
 int main() {
 
-	vector<vector<char>> currentMaze;
+	
 	char hasMaze;
 	char saveMaze;
 	char repeat;
 
 	do {
-
+		Maze currentMaze;
 		cout << "Do you have a maze to load? [Y] or [N]" << endl;
 		cin >> hasMaze;
 		while (hasMaze != 'Y' && hasMaze != 'N') {
 			cout << "Please enter [Y] or [N]" << endl;
 			cin >> hasMaze;
 		}
-		currentMaze = (hasMaze == 'N') ? mazeGen() : loadFile();
+		currentMaze = (hasMaze == 'N') ? mazeGen(currentMaze) : loadFile(currentMaze);
 		
 
 		mazeDisplay(currentMaze);
@@ -30,9 +30,10 @@ int main() {
 			cin >> saveMaze;
 		}
 
-		saveFile(currentMaze);
-		//saving should be done here
-		//system("cls");
+		if (saveMaze == 'Y') 
+			saveFile(currentMaze); cout << "hello";
+		
+
 
 		cout << "Here is the solved maze: " << endl;
 		currentMaze = findPath(currentMaze);
@@ -45,6 +46,7 @@ int main() {
 			cin >> repeat;
 		}
 
+		currentMaze.Reset();
 	}
 
 	while (repeat != 'N');
