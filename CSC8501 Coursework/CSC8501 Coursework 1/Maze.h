@@ -23,4 +23,5 @@ public:
 int mazeDisplay(Maze &maze);
 Maze mazeGen(Maze &maze);
 Maze findPath(Maze &maze);
+int leeSearch(Maze& maze, pair<int, int> start, pair<int, int> end, vector<pair<int,int>> endPoint);
 #endif

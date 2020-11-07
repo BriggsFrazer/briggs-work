@@ -32,6 +32,10 @@ Maze loadFile(Maze &loadedMaze) {
 	
 }
 
+bool checkMaze() {
+
+}
+
 int saveFile(Maze &maze) {
 	string fileName;
 	
@@ -53,6 +57,7 @@ int saveFile(Maze &maze) {
 		file << temp << endl;
 	}
 
+	
 	
 	file.close();
 

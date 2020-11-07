@@ -51,6 +51,5 @@ int main() {
 
 	while (repeat != 'N');
 	
-	// RETURNS 0 WHEN USER IS COMPLETE
 	return 0;
 }
