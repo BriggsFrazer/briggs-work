@@ -121,6 +121,11 @@ void Maze::makeExits() {
 			attempts -= 1;
 		}
 	}
+
+	if (exitCount != 0) {
+		cout << "Unable to place all exits, likely that there were not enough valid locations";
+	}
+
 }
 
 int mazeDisplay(Maze &maze){
@@ -135,14 +140,21 @@ int mazeDisplay(Maze &maze){
 	}
 	return 0;
 }
-Maze mazeGen(Maze &maze) {
-	cout << "Please enter an integer height" << endl;
-	cin >> maze.height;
-	cout << "Please enter an integer width" << endl;
-	cin >> maze.width;
-	cout << "Please enter an integer exits" << endl;
-	cin >> maze.exits;
+Maze mazeGen(Maze& maze) {
 
+	while (!(maze.height >= 5 && maze.height <= 30)) {
+		cout << "Please enter an integer height (5 or more and less than 30)" << endl;
+		cin >> maze.height;
+	}
+	while (!(maze.width >= 5 && maze.width <= 30)) {
+		cout << "Please enter an integer width (5 or more and less than 30)" << endl;
+		cin >> maze.width;
+	}
+
+	while (!(maze.exits < ((maze.height*2) + (maze.width*2) - 4)/2 && maze.exits > 0)) {
+		cout << "Please enter an integer exits. At least one! " << endl;
+		cin >> maze.exits;
+	}
 	vector<vector<char>> vect(maze.height, vector<char>(maze.width));
 
 

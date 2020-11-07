@@ -12,14 +12,17 @@ int main() {
 
 	do {
 		Maze currentMaze;
-		cout << "Do you have a maze to load? [Y] or [N]" << endl;
-		cin >> hasMaze;
-		while (hasMaze != 'Y' && hasMaze != 'N') {
-			cout << "Please enter [Y] or [N]" << endl;
+
+		while (currentMaze.layout.size() == 0) {
+			cout << "Do you have a maze to load? [Y] or [N]" << endl;
 			cin >> hasMaze;
+			while (hasMaze != 'Y' && hasMaze != 'N') {
+				cout << "Please enter [Y] or [N]" << endl;
+				cin >> hasMaze;
+			}
+			currentMaze = (hasMaze == 'N') ? mazeGen(currentMaze) : loadFile(currentMaze);
 		}
-		currentMaze = (hasMaze == 'N') ? mazeGen(currentMaze) : loadFile(currentMaze);
-		
+
 
 		mazeDisplay(currentMaze);
 
@@ -30,10 +33,9 @@ int main() {
 			cin >> saveMaze;
 		}
 
-		if (saveMaze == 'Y') 
-			saveFile(currentMaze); cout << "hello";
-		
-
+		if (saveMaze == 'Y') {
+			saveFile(currentMaze);
+		}
 
 		cout << "Here is the solved maze: " << endl;
 		currentMaze = findPath(currentMaze);
