@@ -209,29 +209,30 @@ vector<Node> aStar(Player player, Maze& maze) {
 		x = node.x;
 		y = node.y;
 
-		for (int newX = -1; newX <= 1; newX++) {
-			for (int newY = -1; newY <= 1; newY++) {
-				double gNew, hNew, fNew;
-				if (maze.isValid(x + newX, y + newY)) {
-					if (isDestination(x + newX, y + newY, dest)) {
-						weightedMap[x + newX][y + newY].parentX = x;
-						weightedMap[x + newX][y + newY].parentY = y;
-						destinationFound = true;
-						return makePath(weightedMap, dest);
-					}
-					else if (closedList[x + newX][y + newY] == false) {
-						gNew = node.gCost + 1.0;
-						hNew = calculateH(x + newX, y + newY, dest);
-						fNew = gNew + hNew;
-						if (weightedMap[x + newX][y + newY].fCost == FLT_MAX || weightedMap[x + newX][y + newY].fCost > fNew) {
-							weightedMap[x + newX][y + newY].fCost = fNew;
-							weightedMap[x + newX][y + newY].gCost = gNew;
-							weightedMap[x + newX][y + newY].hCost = hNew;
-							weightedMap[x + newX][y + newY].parentX = x;
-							weightedMap[x + newX][y + newY].parentY = y;
-							openList.emplace_back(weightedMap[x + newX][y + newY]);
+		int rowNum[] = { -1,0,0,1 };
+		int columnNum[] = { 0,-1,1,0 };
 
-					}
+		for (int k = 0; k < 4; k++) {
+			double gNew, hNew, fNew;
+			if (maze.isValid(x + rowNum[k], y + columnNum[k])) {
+				if (isDestination(x + rowNum[k], y + columnNum[k], dest)) {
+					weightedMap[x + rowNum[k]][y + columnNum[k]].parentX = x;
+					weightedMap[x + rowNum[k]][y + columnNum[k]].parentY = y;
+					destinationFound = true;
+					return makePath(weightedMap, dest);
+				}
+				else if (closedList[x + rowNum[k]][y + columnNum[k]] == false) {
+					gNew = node.gCost + 1.0;
+					hNew = calculateH(x + rowNum[k], y + columnNum[k], dest);
+					fNew = gNew + hNew;
+					if (weightedMap[x + rowNum[k]][y + columnNum[k]].fCost == FLT_MAX || weightedMap[x + rowNum[k]][y + columnNum[k]].fCost > fNew) {
+						weightedMap[x + rowNum[k]][y + columnNum[k]].fCost = fNew;
+						weightedMap[x + rowNum[k]][y + columnNum[k]].gCost = gNew;
+						weightedMap[x + rowNum[k]][y + columnNum[k]].hCost = hNew;
+						weightedMap[x + rowNum[k]][y + columnNum[k]].parentX = x;
+						weightedMap[x + rowNum[k]][y + columnNum[k]].parentY = y;
+						openList.emplace_back(weightedMap[x + rowNum[k]][y + columnNum[k]]);
+
 				}
 			}
 		}
