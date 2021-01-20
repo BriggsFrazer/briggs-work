@@ -1,0 +1,61 @@
+﻿  BaseGame.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\BaseGame.cpp(150,25): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  GameTechRenderer.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+  HomeScreen.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+  Main.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(101,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(150,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(208,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(102,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(236,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MultiGame.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+  SingleGame.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+  TutorialGame.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(219,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(277,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\GameObjects.h(281,23): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  5 of 3556 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    17 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GameTech.vcxproj -> C:\Users\Briggs\Desktop\CSC8503 Project\Release\GameTech.exe

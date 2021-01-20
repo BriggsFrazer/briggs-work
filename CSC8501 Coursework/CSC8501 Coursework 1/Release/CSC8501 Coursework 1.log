@@ -1,0 +1,13 @@
+﻿  FileIO.cpp
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(29,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(53,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(123,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(125,21): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 658 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CSC8501 Coursework 1.vcxproj -> C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\Release\CSC8501 Coursework 1.exe

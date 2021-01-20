@@ -1,0 +1,2 @@
+C:\Users\Briggs\Desktop\CSC8503 Project\Win32\Debug\CSC8503Common.pdb
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\Debug\CSC8503Common.pdb

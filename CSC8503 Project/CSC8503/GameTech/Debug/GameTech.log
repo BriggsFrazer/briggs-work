@@ -1,0 +1,11 @@
+﻿  Main.cpp
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(44,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\CSC8503Common\CollisionDetection.h(45,1): warning C4293: '<<': shift count negative or too big, undefined behavior
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(102,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(151,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\SceneState.h(207,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(168,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(184,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(275,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Briggs\Desktop\CSC8503 Project\CSC8503\GameTech\Main.cpp(301,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GameTech.vcxproj -> C:\Users\Briggs\Desktop\CSC8503 Project\Win32\Debug\GameTech.exe

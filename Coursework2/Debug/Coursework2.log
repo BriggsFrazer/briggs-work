@@ -1,0 +1,19 @@
+﻿  Maze.cpp
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(88,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(192,46): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(229,60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(230,60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(231,60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(279,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(285,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(287,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(344,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(346,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(361,44): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(397,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(410,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(412,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(274): warning C4715: 'makePath': not all control paths return a value
+C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Maze.cpp(247): warning C4715: 'aStar': not all control paths return a value
+  Coursework2.vcxproj -> C:\Users\Briggs\Documents\GitHub\briggs-work\Coursework2\Debug\Coursework2.exe

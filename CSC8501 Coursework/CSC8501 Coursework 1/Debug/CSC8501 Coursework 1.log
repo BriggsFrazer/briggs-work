@@ -1,0 +1,6 @@
+﻿  FileIO.cpp
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(23,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(48,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\FileIO.cpp(50,21): warning C4018: '<': signed/unsigned mismatch
+  CSC8501 Coursework 1.vcxproj -> C:\Users\Briggs\Documents\GitHub\briggs-work\CSC8501 Coursework\CSC8501 Coursework 1\Debug\CSC8501 Coursework 1.exe
